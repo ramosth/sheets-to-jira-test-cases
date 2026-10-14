@@ -1,0 +1,17 @@
+# Credenciais e tokens: NUNCA versionar
+.env
+auth/credentials.json
+auth/token.pickle
+*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDEs e sistema
+.idea/
+.vscode/
+.DS_Store
