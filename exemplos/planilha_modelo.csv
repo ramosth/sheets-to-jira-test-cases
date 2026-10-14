@@ -1,0 +1,9 @@
+id_pai,id_jira,titulo,objetivo,pre_condicoes,descricao,tipo_execucao,tipo_teste,componentes,ultima_atualizacao
+QA-10,,Solicitar novo laudo com todos os campos obrigatórios,Garantir que o laudo é criado quando todos os campos obrigatórios são preenchidos,Usuário autenticado no portal,"Dado que estou na tela de Nova Análise
+Quando preencho todos os campos obrigatórios
+E envio as 6 fotos do veículo
+Então o laudo é criado com status ""Em análise""",Automatizável,Funcional,Front,
+QA-10,,Exibir alerta ao enviar a placa em branco,Validar a mensagem de campo obrigatório da placa,Usuário autenticado no portal,"Dado que estou na tela de Nova Análise
+Quando deixo o campo Placa vazio
+E avanço para a próxima etapa
+Então vejo o alerta ""Campo obrigatório""",Manual,Funcional,Front,
